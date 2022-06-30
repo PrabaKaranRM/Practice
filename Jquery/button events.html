@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $(".0").click (function() {                              // dblclick , mouseenter , mouseleave ,mousedown , mouseup
+                    $(".hide").hide(); 
+                })
+                $(".1").dblclick (function() {                              // dblclick , mouseenter , mouseleave ,mouse press- mousedown ,mouse release mouseup
+                    $(".hide").hide(); 
+                })
+                $(".2").mouseenter (function() {                              // dblclick , mouseenter , mouseleave ,mouse press- mousedown ,mouse release mouseup
+                    $(".hide").hide(); 
+                })
+                $(".3").mouseleave (function() {                              // dblclick , mouseenter , mouseleave ,mouse press- mousedown ,mouse release mouseup
+                    $(".hide").hide(); 
+                })
+                $(".4").mouseup (function() {                              // dblclick , mouseenter , mouseleave ,mouse press- mousedown ,mouse release mouseup
+                    $(".hide").hide();  
+                })
+                $(".5").mousedown (function() {                              // dblclick , mouseenter , mouseleave ,mouse press- mousedown ,mouse release mouseup
+                    $(".hide").hide(); 
+                })
+               
+           
+
+            })
+        </script>
+    </head>
+    <body>
+        <p class="hide">im not going to hide</p>
+        <p>Im going to hide<p>
+        <h4>Click the button to hide</h4>
+        
+        <button class="0">Click me</button><br><br>
+        <button class="1">double click</button><br><br>
+        <button class="2">mouse enter</button><br><br>
+        <button class="3">mouse leave</button><br><br>
+        <button class="4">mouse release</button><br><br>
+        <button class="5">mouse down</button><br><br>
+      
+        <button class="8">mouse release</button>
+    </body>
+</html>

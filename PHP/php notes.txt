@@ -1,0 +1,40 @@
+Xampp
+wamp
+IIS
+
+
+
+Html,css		Javascript			PHP			Xampp 			Mysql
+Static webpage		Client side validation		Backend code		Local server		Database
+
+PHP
+Php	Install		--> Programm files
+
+Xampp
+
+
+
+PHP file location - C\xampp\htdocs\folder_name
+Run	-- chrome-localhost\folder_name\
+
+Mysql DB - localhost/phpmyadmin/
+
+
+
+Example code
+
+<?php
+
+echo "hello<br>";       //display
+
+$num=5;             //variable creation
+$chars='r';
+$wrd="riya";
+
+echo "The given value is $num and the string $wrd";
+
+
+?>
+
+
+		

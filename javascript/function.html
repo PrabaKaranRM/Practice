@@ -1,0 +1,86 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+        /*function hello (){                
+                document.write('your function is passed')
+            }*/
+          /*  function displaymsg(name,age){
+                document.write(name + "is " + age + "yearsold")
+            }*/
+
+          /*  class cars{
+                constructor(color,name){
+                    this.color=color;
+                    this.name=name;
+                }
+                display(){
+                    document.write("color of the car is" + this.color +"<br>"+"name is" + this.name + "<br>");
+                }
+            }
+
+            var c1=new cars("Blue","Shift");
+            var c2=new cars("Red","Nano");
+
+            c1.display();
+            c2.display();  */
+
+            class test{
+                constructor(num1,num2){
+                    this.num1=num1;
+                    this.num2=num2;
+                    
+                 
+                }
+                display(){
+                    this.num1 = this.num1 + this.num2;
+                    document.write(this.num1);
+                }
+
+
+            }
+
+            var n1=new test(30,30);
+            
+     /*  function displaymsg(){
+                 msg=document.getElementById(name).value;
+                 msg1=document.getElementById(dob).value;
+                 msg2=document.getElementById(num).value;
+
+                 alert(msg +msg1 + msg2);
+                 }
+      */
+        function displaymsg1(){
+            document.getElementById("change").innerHTML = "Done" ;
+                    document.getElementById("change").style.color = "red" ;
+         }6
+            
+
+       /*     function displaymsg2(){
+                           var text=document.getElementsByTagName("img");
+                           document.getElementById("img1").src="./rk2.jpg";
+            }
+          
+*/
+          
+            
+            
+        </script>
+        <input type="text" id="name">
+        <input type="date" id="dob">
+        <input type="number" id="num"><br>
+        <h2 id="test">no text</h2>
+        <p id ="dis"></p>
+        <button type="button" id="change" onclick="displaymsg1()" >Submit</button>
+        <button type="button" onclick=n1.display(); >ADD</button>
+       
+        <img id="img1" src="./rk1.jpg" >
+        <img src="./rk2.jpg">
+        
+        
+    
+
+    </body>
+</html>
