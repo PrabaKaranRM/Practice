@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <style>
+            body {
+                background-color: #4682B4;
+                font-family: "Helvetica"
+            }
+            .text {
+                height: 2rem;
+            }
+
+            .email {
+                height: 2rem;
+            }
+            .password {
+                height: 2rem;
+            }
+            .radio {
+                height: 2rem;
+                
+            }
+            .date {
+                height: 2rem;
+            }
+            .Course {
+                height: 2rem;
+            }
+            
+            .submit{
+                margin-left:8rem;margin-right:8rem; margin-top: 1rem; display: inline-block;
+                ;color: black;font-weight: bold;font-size: 15px;text-decoration: none; border: 3px solid #4682B4;border-radius: 10px;padding: 20px ; 
+            }
+            .submit:hover{
+                animation:pulsate 1s ease-in-out;
+            }
+
+            @keyframes pulsate {
+                0%{
+                    box-shadow: 0 0 25px #5ddcff, 0 0 50px #4682B4;
+                }
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <form >
+            <div classname="container" style="width: 25rem;background-color: white; margin-top: 9rem;display: flex;flex-direction: column;margin-left: 32rem;column-gap: 2rem;padding: 3rem;border-radius: 3rem;padding-top:1.5rem; ">
+                <h1>Registration form</h1><br>
+               
+                <label>Name</label><br>
+                
+                <input class = "text" type="text" placeholder="name"><br>
+                <label>Email</label><br>
+                <input class = "email" type="email" placeholder="email"><br>
+                <label>Password</label><br>
+                <input class = "password" type="password" placeholder="password"><br>
+              
+                <label>Gender</label><br>
+                <label>male</label>
+                <input class = "radio" type="radio" name="gender" value="male">
+                <label>Female</label>
+                <input class = "radio" type="radio" name="gender" value="female"><br>
+                 
+                <label>Date of Birth</label><br>
+                <input class = "date" type="date"><br>
+    
+                <label>Address</label><br>
+                <textarea placeholder="address" cols="6" rows="6"></textarea><br>
+    
+                <label>Course</label><br>
+                
+                <select class = "course" name="course">
+                    <option value="UID">UID</option>
+                    <option value="GAD">GAD</option>
+                </select>
+                <br>
+                
+                <input class="submit" type="submit" name="submit" >
+                
+                
+               
+                
+                
+               </div>
+            
+    </body>
+</html>
+
